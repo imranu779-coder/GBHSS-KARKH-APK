@@ -4,5 +4,9 @@ from kivy.uix.label import Label
 
 class GBHSSApp(App):
     def build(self):
-        layout = BoxLayout(orientation='vertical', padding=20, spacing=10)
-        layout.add_widget(Label(text='GBHSS KARAKH',
+        layout = BoxLayout(orientation='vertical')
+        layout.add_widget(Label(text='GBHSS KARKH APK'))
+        layout.add_widget(Label(text='Welcome!'))
+        return layout
+
+GBHSSApp().run()
